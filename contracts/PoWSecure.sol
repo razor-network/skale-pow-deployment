@@ -8,7 +8,7 @@ contract PoWSecure {
         uint256 indexed timestamp
     );
 
-    uint256 private constant MAX_AMOUNT = 0.1 ether;
+    uint256 private constant MAX_AMOUNT = 0.005 ether;
     uint256 private constant AMOUNT = 0.005 ether;
 
     constructor() payable {}
